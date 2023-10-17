@@ -1,0 +1,26 @@
+.section {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 10px;
+    min-width: 250px;
+    color: grey;
+    cursor: pointer;
+    /* background-color: whitesmoke; */
+    border-width: 0!important;
+}
+
+.section .menu-icon {
+    margin: 15px;
+}
+
+.section--selected {    
+    background-color: whitesmoke;
+    /* border-width: 3px !important; */
+
+}
+
+.section:hover {
+    background-color: whitesmoke;
+    border-width: 1px !important;
+}
